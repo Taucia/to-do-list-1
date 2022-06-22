@@ -1,0 +1,92 @@
+body {
+    background: lavender;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: purple;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: serif;
+    text-decoration: underline;
+}
+
+input {
+    border-radius: 5px;
+    min-width: 40%;
+    padding: 6px;
+    border: solid;
+    height: 25px;
+    border-color: blueviolet;
+    text-decoration-color: blueviolet;
+    font-family: serif;
+
+}
+
+button {
+    font-size: 12px;
+    border-radius: 5px;
+    height: 40px;
+    width: 60px;
+    border-color: blueviolet;
+    color: purple;
+    font-family: serif;
+}
+
+#todobtn:hover {
+    cursor: pointer;
+}
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: purple;
+    transition: all 0.75s ease;
+    height: 15px;
+    width: 334px;
+    align-items: center;
+    margin-left: 186px;
+
+    font-family: serif;
+}
+
+li:hover {
+    background: orchid;
+}
+
+li>button {
+    /* when there's a list, how the li will look like  */
+    font-weight:bold;
+    background: none;
+    border: none;
+    float: right;
+    font-size: 20px;
+    color: #FEFEFE;
+    height: 5px;
+    width: 10px;
+    
+}
+
+.done {
+    /* when you click to finish a task, how the li will look like */
+    text-decoration: line-through under;
+
+
+}
+
+.delete {
+    /* when you click 'x' to delete a task, how the li will look like  */
+    display:none;
+   
+}
